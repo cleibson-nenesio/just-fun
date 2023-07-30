@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  color: #fff6e0;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background: #272829;
+  color: #fff6e0;
+}
+
+.main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+}
+
+.main-wrapper .main-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 20px 30px;
+  border: 1px solid #cccc;
+  border-radius: 15px;
+}
+
+.main-box .quest {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-width: 170px;
+}
+
+.button {
+  padding: 5px 10px;
+  background-color: #86b159;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  min-width: 80px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  outline: none;
+}
+
+.button.agree:hover {
+  background-color: #617e41;
+}
+
+.button.deny {
+  background: #d11f1e;
+}
+
+.button.deny:hover {
+  background: #b31312;
+}
